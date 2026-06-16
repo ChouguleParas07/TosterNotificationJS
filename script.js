@@ -1,15 +1,3 @@
-// function clicklimiter() {
-//     let click = 0;
-
-//     return function(){
-//         if (click < 5){
-//             click++;
-//             console.log(`you clicked ${click} times.`);
-//         }else console.error('you already tried for 5 times');
-//     };
-// };
-
-
 function CreateToster(data){
 
     return function(notification){
